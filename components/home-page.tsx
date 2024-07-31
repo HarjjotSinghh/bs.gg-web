@@ -284,8 +284,8 @@ export default function HomePage() {
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
-                    className="size-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/400x400/3b82f6/ffffff.png&text=User+Image"
+                    className="size-40 mb-8 object-cover object-center rounded-full inline-block bg-gray-100 border-none"
+                    src="https://media.licdn.com/dms/image/C4D03AQEeEyYzNtDq7g/profile-displayphoto-shrink_400_400/0/1524234561685?e=2147483647&v=beta&t=CJY6IY9Bsqc2kiES7HZmnMo1_uf11zHc9DQ1tyk7R7Y"
                   />
                   <p className="leading-relaxed text-left">
                     {'"'}BS.GG has transformed my online entertainment
@@ -302,8 +302,8 @@ export default function HomePage() {
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
-                    className="size-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/400x400/3b82f6/ffffff.png&text=User+Image"
+                    className="size-40 mb-8 object-cover object-center rounded-full inline-block bg-gray-100 border-none"
+                    src="https://www.befunky.com/images/wp/wp-2021-01-linkedin-profile-picture-focus-face.jpg?auto=avif,webp&format=jpg&width=944"
                   />
                   <p className="leading-relaxed text-left">
                     {'"'}I love the community aspect of BS.GG. I{"'"}ve made so
@@ -319,8 +319,8 @@ export default function HomePage() {
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
-                    className="size-40 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
-                    src="https://dummyimage.com/400x400/3b82f6/ffffff.png&text=User+Image"
+                    className="size-40 mb-8 object-cover object-center rounded-full inline-block bg-gray-100 border-none"
+                    src="https://media.licdn.com/dms/image/C4E03AQHwDooA-9Hlyg/profile-displayphoto-shrink_400_400/0/1656254145919?e=2147483647&v=beta&t=mqsdKH4w-wDYZoBA9Q5kwOWQDh0CnKhBy1QIzc9rzFs"
                   />
                   <p className="leading-relaxed text-left">
                     {'"'}The VIP Club is a game-changer. The perks and exclusive
