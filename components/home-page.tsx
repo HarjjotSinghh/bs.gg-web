@@ -50,7 +50,7 @@ export default function HomePage() {
               width={1920}
               height={1080}
             ></Image>
-            <h2 className="text-2xl text-white font-extrabold tracking-tighter z-20">
+            <h2 className="text-2xl md:text-white text-black font-extrabold tracking-tighter z-20">
               PLEASE CHOOSE <br />
               YOUR COUNTRY
             </h2>
