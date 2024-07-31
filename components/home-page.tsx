@@ -26,12 +26,12 @@ export default function HomePage() {
         height={812}
         className="w-full h-auto md:hidden block"
       />
-      <section className="py-16 bg-blue-500 text-white">
+      <section className="py-20 bg-primary text-black">
         <div className="container mx-auto text-left">
-          <h2 className="text-3xl font-bold">
+          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
             Discover a World of Exciting Opportunities!
           </h2>
-          <p className="mt-4 text-lg text-white/80 max-w-4xl text-balance">
+          <p className="mt-4 text-lg text-black/60 max-w-4xl text-balance">
             Welcome to BS.GG, the premier platform for all your online
             entertainment needs. Dive into a realm of thrilling experiences
             where every moment is packed with fun, excitement, and endless
@@ -40,7 +40,7 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-      <section className="bg-yellow-500">
+      <section className="bg-primary">
         <div className="mx-auto text-center flex md:flex-row flex-col overflow-hidden items-center justify-start gap-4">
           <div className="relative z-10 md:p-4 md:py-12 py-4 md:px-16 md:pr-24 px-4 ">
             <Image
@@ -50,7 +50,7 @@ export default function HomePage() {
               width={1920}
               height={1080}
             ></Image>
-            <h2 className="text-2xl text-white font-bold z-20">
+            <h2 className="text-2xl text-white font-extrabold tracking-tighter z-20">
               PLEASE CHOOSE <br />
               YOUR COUNTRY
             </h2>
@@ -58,22 +58,24 @@ export default function HomePage() {
           <div className="flex justify-center mt-4 space-x-8 items-center flex-1 md:pb-0 pb-6">
             <div className="flex items-center justify-center gap-1 cursor-pointer flex-col">
               <IN title="India" className="rounded-full size-12" />
-              <p className="font-bold">India</p>
+              <p className="font-extrabold tracking-tighter">India</p>
             </div>
             <div className="flex items-center justify-center gap-1 cursor-pointer flex-col">
               <BD title="Bangladesh" className="rounded-full size-12" />
-              <p className="font-bold">Bangladesh</p>
+              <p className="font-extrabold tracking-tighter">Bangladesh</p>
             </div>
             <div className="flex items-center justify-center gap-1 cursor-pointer flex-col">
               <PK title="Pakistan" className="rounded-full size-12" />
-              <p className="font-bold">Pakistan</p>
+              <p className="font-extrabold tracking-tighter">Pakistan</p>
             </div>
           </div>
         </div>
       </section>
-      <section className="py-16 bg-white">
+      <section className="py-20 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold">Why Choose BS.GG?</h2>
+          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
+            Why Choose BS.GG?
+          </h2>
           <p className="mt-4 text-lg opacity-70 max-w-3xl mx-auto">
             BS.GG offers Asia{"'"}s best online sports trading and gaming
             entertainment. We provide a wide range of advanced online games. Our
@@ -91,7 +93,9 @@ export default function HomePage() {
                 height={75}
                 src={"/1.png"}
               />
-              <h3 className="text-xl font-bold">Innovative Experiences</h3>
+              <h3 className="text-xl font-extrabold tracking-tighter">
+                Innovative Experiences
+              </h3>
               <p className="opacity-70">
                 Immerse yourself in a wide array of interactive and enjoyable
                 experiences designed to keep you entertained and engaged.
@@ -105,7 +109,9 @@ export default function HomePage() {
                 height={75}
                 src={"/2.png"}
               />
-              <h3 className="text-xl font-bold">Exclusive Rewards</h3>
+              <h3 className="text-xl font-extrabold tracking-tighter">
+                Exclusive Rewards
+              </h3>
               <p className="opacity-70">
                 Earn fantastic rewards and special bonuses as you participate
                 and achieve milestones.
@@ -119,7 +125,9 @@ export default function HomePage() {
                 height={75}
                 src={"/3.png"}
               />
-              <h3 className="text-xl font-bold">Seamless User Experience</h3>
+              <h3 className="text-xl font-extrabold tracking-tighter">
+                Seamless User Experience
+              </h3>
               <p className="opacity-70">
                 Enjoy a user-friendly interface that makes navigating and
                 exploring activities a breeze.
@@ -133,7 +141,9 @@ export default function HomePage() {
                 height={75}
                 src={"/4.png"}
               />
-              <h3 className="text-xl font-bold">Community Engagement</h3>
+              <h3 className="text-xl font-extrabold tracking-tighter">
+                Community Engagement
+              </h3>
               <p className="opacity-70">
                 Connect with like-minded individuals, share experiences, and
                 build lasting friendships within our community.
@@ -147,7 +157,9 @@ export default function HomePage() {
                 height={75}
                 src={"/5.png"}
               />
-              <h3 className="text-xl font-bold">Secure & Reliable</h3>
+              <h3 className="text-xl font-extrabold tracking-tighter">
+                Secure & Reliable
+              </h3>
               <p className="opacity-70">
                 Your safety and privacy are our top priority. BS.GG offers a
                 secure environment for you to enjoy your favorite activities
@@ -157,27 +169,29 @@ export default function HomePage() {
           </div>
         </div>
       </section>
-      <section className="py-16 bg-blue-500 text-white">
+      <section className="py-20 bg-primary text-black">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold">How To Get Started</h2>
-          <section className="text-gray-600 body-font">
+          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
+            How To Get Started
+          </h2>
+          <section className="text-black body-font">
             <div className="container px-5 py-12 mx-auto flex flex-wrap">
               <div className="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto">
                 <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                  <div className="h-full w-1 bg-black/90 pointer-events-none"></div>
                 </div>
-                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm border-border border-[3.5px] ">
+                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black/90 text-white relative z-10 title-font font-medium text-sm border-[3.5px] border-black/90">
                   1
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                  <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
-                    <EnvelopeClosedIcon className="w-12 h-12" />
+                  <div className="flex-shrink-0 w-24 h-24 bg-black/90 text-white rounded-full inline-flex items-center justify-center">
+                    <EnvelopeClosedIcon className="size-10" />
                   </div>
-                  <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-medium text-left text-white mb-1 text-xl">
+                  <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
+                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Sign Up
                     </h2>
-                    <p className="leading-relaxed text-white/80 text-left max-w-sm">
+                    <p className="leading-relaxed text-black/60 text-left max-w-sm">
                       Create your free account in just a few simple steps. Click
                       the {'"'}Join Now{'"'} button and fill out the
                       registration form to become a member of the BS.GG family.
@@ -187,20 +201,20 @@ export default function HomePage() {
               </div>
               <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
                 <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                  <div className="h-full w-1 bg-black/90 pointer-events-none"></div>
                 </div>
-                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm border-border border-[3.5px] ">
+                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black/90 text-white relative z-10 title-font font-medium text-sm border-[3.5px] border-black/90">
                   2
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                  <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
-                    <ActivityLogIcon className="w-12 h-12" />
+                  <div className="flex-shrink-0 w-24 h-24 bg-black/90 text-white rounded-full inline-flex items-center justify-center">
+                    <ActivityLogIcon className="size-10" />
                   </div>
-                  <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-medium text-left text-white mb-1 text-xl">
+                  <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
+                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Explore Activities
                     </h2>
-                    <p className="leading-relaxed text-white/80 text-left max-w-sm">
+                    <p className="leading-relaxed text-black/60 text-left max-w-sm">
                       Browse through our extensive collection of engaging
                       activities and find the ones that pique your interest.
                       Whether you enjoy strategy, chance, or skill-based
@@ -211,20 +225,20 @@ export default function HomePage() {
               </div>
               <div className="flex relative pb-20 sm:items-center md:w-2/3 mx-auto">
                 <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                  <div className="h-full w-1 bg-black/90 pointer-events-none"></div>
                 </div>
-                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm border-border border-[3.5px] ">
+                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black/90 text-white relative z-10 title-font font-medium text-sm border-[3.5px] border-black/90">
                   3
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                  <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
-                    <MixIcon className="w-12 h-12" />
+                  <div className="flex-shrink-0 w-24 h-24 bg-black/90 text-white rounded-full inline-flex items-center justify-center">
+                    <MixIcon className="size-10" />
                   </div>
-                  <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-medium text-left text-white mb-1 text-xl">
+                  <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
+                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Participate & Enjoy
                     </h2>
-                    <p className="leading-relaxed text-white/80 text-left max-w-sm">
+                    <p className="leading-relaxed text-black/60 text-left max-w-sm">
                       Dive into the activities you love. The more you
                       participate, the more rewards and recognition you earn.
                       Experience the thrill of achieving new milestones and
@@ -235,20 +249,20 @@ export default function HomePage() {
               </div>
               <div className="flex relative pb-10 sm:items-center md:w-2/3 mx-auto">
                 <div className="h-full w-6 absolute inset-0 flex items-center justify-center">
-                  <div className="h-full w-1 bg-gray-200 pointer-events-none"></div>
+                  <div className="h-full w-1 bg-black/90 pointer-events-none"></div>
                 </div>
-                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-blue-500 text-white relative z-10 title-font font-medium text-sm border-border border-[3.5px] ">
+                <div className="flex-shrink-0 -ml-1 size-8 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-black/90 text-white relative z-10 title-font font-medium text-sm border-[3.5px] border-black/90">
                   4
                 </div>
                 <div className="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row">
-                  <div className="flex-shrink-0 w-24 h-24 bg-blue-100 text-blue-500 rounded-full inline-flex items-center justify-center">
-                    <Share1Icon className="w-12 h-12" />
+                  <div className="flex-shrink-0 w-24 h-24 bg-black/90 text-white rounded-full inline-flex items-center justify-center">
+                    <Share1Icon className="size-10" />
                   </div>
-                  <div className="flex-grow sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-medium text-left text-white mb-1 text-xl">
+                  <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
+                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Connect & Share
                     </h2>
-                    <p className="leading-relaxed text-white/80 text-left max-w-sm">
+                    <p className="leading-relaxed text-black/60 text-left max-w-sm">
                       Engage with our community. Share your experiences, discuss
                       strategies, and enjoy the camaraderie of fellow
                       enthusiasts. Together, we create a supportive and exciting
@@ -261,10 +275,12 @@ export default function HomePage() {
           </section>
         </div>
       </section>
-      <section className="py-16 bg-yellow-500">
+      <section className="py-20 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold ">Join Our Exclusive VIP Club</h2>
-          <p className="mt-4 text-black/70 max-w-2xl mx-auto text-pretty">
+          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter ">
+            Join Our Exclusive VIP Club
+          </h2>
+          <p className="mt-4 text-white/80 max-w-2xl mx-auto text-pretty">
             Elevate your experience with the BS.GG VIP Club. Enjoy premium
             benefits, personalized rewards, and access to exclusive events. Our
             VIP members are treated to an unparalleled level of service and
@@ -273,18 +289,18 @@ export default function HomePage() {
           </p>
         </div>
       </section>
-      <section className="py-16 bg-white">
-        <h1 className="text-3xl font-bold text-center">
+      <section className="py-20 bg-primary text-black">
+        <h1 className="md:text-4xl text-3xl font-extrabold tracking-tighter text-center">
           What Our Members Are Saying
         </h1>
-        <section className="text-gray-600 body-font">
+        <section className="text-black/60 body-font">
           <div className="container px-5 py-12 mx-auto">
             <div className="flex flex-wrap -m-4">
               <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
-                    className="size-40 mb-8 object-cover object-center rounded-full inline-block bg-gray-100 border-none"
+                    className="size-40 mb-8 object-cover object-center rounded-full inline-block  bg-gray-100 border-none"
                     src="https://media.licdn.com/dms/image/C4D03AQEeEyYzNtDq7g/profile-displayphoto-shrink_400_400/0/1524234561685?e=2147483647&v=beta&t=CJY6IY9Bsqc2kiES7HZmnMo1_uf11zHc9DQ1tyk7R7Y"
                   />
                   <p className="leading-relaxed text-left">
@@ -293,7 +309,7 @@ export default function HomePage() {
                     for more!{'"'}
                   </p>
                   {/* <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span> */}
-                  <h2 className="text-gray-900 font-medium title-font tracking-wider text-base mt-2 text-right">
+                  <h2 className="text-black/70 font-extrabold tracking-tighter title-font tracking-wider text-base mt-2 text-right">
                     ~ Alex P.
                   </h2>
                 </div>
@@ -302,7 +318,7 @@ export default function HomePage() {
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
-                    className="size-40 mb-8 object-cover object-center rounded-full inline-block bg-gray-100 border-none"
+                    className="size-40 mb-8 object-cover object-center rounded-full inline-block  bg-gray-100 border-none"
                     src="https://www.befunky.com/images/wp/wp-2021-01-linkedin-profile-picture-focus-face.jpg?auto=avif,webp&format=jpg&width=944"
                   />
                   <p className="leading-relaxed text-left">
@@ -310,7 +326,7 @@ export default function HomePage() {
                     many friends and the rewards are fantastic!{'"'}
                   </p>
                   {/* <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span> */}
-                  <h2 className="text-gray-900 font-medium title-font tracking-wider text-base mt-2 text-right">
+                  <h2 className="text-black/70 font-extrabold tracking-tighter title-font tracking-wider text-base mt-2 text-right">
                     ~ Maria T.
                   </h2>
                 </div>
@@ -319,7 +335,7 @@ export default function HomePage() {
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
-                    className="size-40 mb-8 object-cover object-center rounded-full inline-block bg-gray-100 border-none"
+                    className="size-40 mb-8 object-cover object-center rounded-full inline-block  bg-gray-100 border-none"
                     src="https://media.licdn.com/dms/image/C4E03AQHwDooA-9Hlyg/profile-displayphoto-shrink_400_400/0/1656254145919?e=2147483647&v=beta&t=mqsdKH4w-wDYZoBA9Q5kwOWQDh0CnKhBy1QIzc9rzFs"
                   />
                   <p className="leading-relaxed text-left">
@@ -327,7 +343,7 @@ export default function HomePage() {
                     events are amazing. Highly recommend!{'"'}
                   </p>
                   {/* <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span> */}
-                  <h2 className="text-gray-900 font-medium title-font tracking-wider text-base mt-2 text-right">
+                  <h2 className="text-black/70 font-extrabold tracking-tighter title-font tracking-wider text-base mt-2 text-right">
                     ~ John D.
                   </h2>
                 </div>
@@ -336,60 +352,64 @@ export default function HomePage() {
           </div>
         </section>
       </section>
-      <section className="py-16 bg-blue-500 text-white">
+      <section className="py-20 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h2 className="text-3xl font-bold">Ready To Begin Your Adventure?</h2>
+          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
+            Ready To Begin Your Adventure?
+          </h2>
           <p className="mt-4 text-white/80 max-w-2xl mx-auto">
             Don{"'"}t wait any longer. Join BS.GG today and embark on a journey
             filled with excitement, rewards, and endless fun. Click the {'"'}
             Join Now{'"'} button and start your adventure!
           </p>
           <Button
-            className="mt-8 text-base font-semibold"
-            variant="secondary"
+            className="mt-8 bg-white text-black hover:bg-white/90 w-full max-w-xs text-base font-semibold"
+            variant="ghost"
             size={"lg"}
           >
             Join Now
           </Button>
         </div>
       </section>
-      <section className="py-16 container mx-auto text-center">
-        <h1 className="text-3xl font-bold text-center">Contact Us</h1>
-        <p className="mt-4 opacity-70 max-w-2xl text-pretty mx-auto">
+      <section className="py-20 container mx-auto text-center bg-primary text-black">
+        <h1 className="md:text-4xl text-3xl font-extrabold tracking-tighter text-center">
+          Contact Us
+        </h1>
+        <p className="mt-4 opacity-60 max-w-2xl text-pretty mx-auto">
           Have questions or need assistance? Our friendly support team is here
           to help. Contact us anytime at support@bs.gg or visit our Help Center
           for more information.
         </p>
       </section>
-      <footer className="py-8 bg-yellow-500">
+      <footer className="py-8 bg-black">
         <div className="container mx-auto text-center">
           <div className="flex justify-center space-x-4">
             <a
               href="#"
-              className="text-black/60 hover:text-black hover:scale-110 transition-all duration-300 ease-in-out"
+              className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <FacebookIcon className="w-6 h-6" />
             </a>
             <a
               href="#"
-              className="text-black/60 hover:text-black hover:scale-110 transition-all duration-300 ease-in-out"
+              className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <TwitterIcon className="w-6 h-6" />
             </a>
             <a
               href="#"
-              className="text-black/60 hover:text-black hover:scale-110 transition-all duration-300 ease-in-out"
+              className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <TextIcon className="w-6 h-6" />
             </a>
             <a
               href="#"
-              className="text-black/60 hover:text-black hover:scale-110 transition-all duration-300 ease-in-out"
+              className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <InstagramIcon className="w-6 h-6" />
             </a>
           </div>
-          <div className="mt-4 text-black/60">
+          <div className="mt-4 text-white/80">
             <p>BS.GG - Where Fun Meets Opportunity</p>
           </div>
         </div>
