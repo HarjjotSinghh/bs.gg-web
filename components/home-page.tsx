@@ -12,23 +12,26 @@ import { Button } from "./ui/button";
 export default function HomePage() {
   return (
     <div className="w-full">
-      <Image
-        src={"/banner-desktop.png"}
-        alt="Banner Image Hero Section"
-        width={1920}
-        height={1080}
-        className="w-full h-auto md:block hidden"
-      />
-      <Image
+      <div className="relative">
+        <div className="absolute size-full inset-0 z-10 bg-gradient-to-b from-30% to-100% from-transparent to-primary"></div>
+        <Image
+          src={"/banner-new.webp"}
+          alt="Banner Image Hero Section"
+          width={1920}
+          height={1080}
+          className="w-full h-auto "
+        />
+      </div>
+      {/* <Image
         src="/banner-mobile.png"
         alt="Banner Image Hero Section"
         width={856}
         height={812}
         className="w-full h-auto md:hidden block"
-      />
+      /> */}
       <section className="py-20 bg-primary text-black">
         <div className="container mx-auto text-left">
-          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
+          <h2 className="text-pretty md:text-4xl text-3xl font-extrabold tracking-tighter">
             Discover a World of Exciting Opportunities!
           </h2>
           <p className="mt-4 text-lg text-black/60 max-w-4xl text-balance">
@@ -50,7 +53,7 @@ export default function HomePage() {
               width={1920}
               height={1080}
             ></Image>
-            <h2 className="text-2xl md:text-white text-black font-extrabold tracking-tighter z-20">
+            <h2 className="text-pretty text-2xl md:text-white text-black font-extrabold tracking-tighter z-20">
               PLEASE CHOOSE <br />
               YOUR COUNTRY
             </h2>
@@ -73,7 +76,7 @@ export default function HomePage() {
       </section>
       <section className="py-20 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
+          <h2 className="text-pretty md:text-4xl text-3xl font-extrabold tracking-tighter">
             Why Choose BS.GG?
           </h2>
           <p className="mt-4 text-lg opacity-70 max-w-3xl mx-auto">
@@ -93,10 +96,10 @@ export default function HomePage() {
                 height={75}
                 src={"/1.png"}
               />
-              <h3 className="text-xl font-extrabold tracking-tighter">
+              <h3 className="text-pretty text-xl font-extrabold tracking-tighter">
                 Innovative Experiences
               </h3>
-              <p className="opacity-70">
+              <p className="opacity-70 max-w-xs">
                 Immerse yourself in a wide array of interactive and enjoyable
                 experiences designed to keep you entertained and engaged.
               </p>
@@ -109,10 +112,10 @@ export default function HomePage() {
                 height={75}
                 src={"/2.png"}
               />
-              <h3 className="text-xl font-extrabold tracking-tighter">
+              <h3 className="text-pretty text-xl font-extrabold tracking-tighter">
                 Exclusive Rewards
               </h3>
-              <p className="opacity-70">
+              <p className="opacity-70 max-w-xs">
                 Earn fantastic rewards and special bonuses as you participate
                 and achieve milestones.
               </p>
@@ -125,10 +128,10 @@ export default function HomePage() {
                 height={75}
                 src={"/3.png"}
               />
-              <h3 className="text-xl font-extrabold tracking-tighter">
+              <h3 className="text-pretty text-xl font-extrabold tracking-tighter">
                 Seamless User Experience
               </h3>
-              <p className="opacity-70">
+              <p className="opacity-70 max-w-xs">
                 Enjoy a user-friendly interface that makes navigating and
                 exploring activities a breeze.
               </p>
@@ -141,10 +144,10 @@ export default function HomePage() {
                 height={75}
                 src={"/4.png"}
               />
-              <h3 className="text-xl font-extrabold tracking-tighter">
+              <h3 className="text-pretty text-xl font-extrabold tracking-tighter">
                 Community Engagement
               </h3>
-              <p className="opacity-70">
+              <p className="opacity-70 max-w-xs">
                 Connect with like-minded individuals, share experiences, and
                 build lasting friendships within our community.
               </p>
@@ -157,10 +160,10 @@ export default function HomePage() {
                 height={75}
                 src={"/5.png"}
               />
-              <h3 className="text-xl font-extrabold tracking-tighter">
+              <h3 className="text-pretty text-xl font-extrabold tracking-tighter">
                 Secure & Reliable
               </h3>
-              <p className="opacity-70">
+              <p className="opacity-70 max-w-xs">
                 Your safety and privacy are our top priority. BS.GG offers a
                 secure environment for you to enjoy your favorite activities
                 without any worries.
@@ -171,7 +174,7 @@ export default function HomePage() {
       </section>
       <section className="py-20 bg-primary text-black">
         <div className="container mx-auto text-center">
-          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
+          <h2 className="text-pretty md:text-4xl text-3xl font-extrabold tracking-tighter">
             How To Get Started
           </h2>
           <section className="text-black body-font">
@@ -188,7 +191,7 @@ export default function HomePage() {
                     <EnvelopeClosedIcon className="size-10" />
                   </div>
                   <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
+                    <h2 className="text-pretty font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Sign Up
                     </h2>
                     <p className="leading-relaxed text-black/60 text-left max-w-sm">
@@ -211,7 +214,7 @@ export default function HomePage() {
                     <ActivityLogIcon className="size-10" />
                   </div>
                   <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
+                    <h2 className="text-pretty font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Explore Activities
                     </h2>
                     <p className="leading-relaxed text-black/60 text-left max-w-sm">
@@ -235,7 +238,7 @@ export default function HomePage() {
                     <MixIcon className="size-10" />
                   </div>
                   <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
+                    <h2 className="text-pretty font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Participate & Enjoy
                     </h2>
                     <p className="leading-relaxed text-black/60 text-left max-w-sm">
@@ -259,7 +262,7 @@ export default function HomePage() {
                     <Share1Icon className="size-10" />
                   </div>
                   <div className="flex-grow-0 sm:pl-6 mt-6 sm:mt-0">
-                    <h2 className="font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
+                    <h2 className="text-pretty font-bold tracking-tight text-left text-black mb-1 w-fit text-xl">
                       Connect & Share
                     </h2>
                     <p className="leading-relaxed text-black/60 text-left max-w-sm">
@@ -277,8 +280,9 @@ export default function HomePage() {
       </section>
       <section className="py-20 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter ">
-            Join Our Exclusive VIP Club
+          <h2 className="text-pretty md:text-4xl text-3xl font-extrabold tracking-tighter ">
+            Join Our&nbsp;
+            <br className="md:hidden block" /> Exclusive VIP Club
           </h2>
           <p className="mt-4 text-white/80 max-w-2xl mx-auto text-pretty">
             Elevate your experience with the BS.GG VIP Club. Enjoy premium
@@ -290,60 +294,61 @@ export default function HomePage() {
         </div>
       </section>
       <section className="py-20 bg-primary text-black">
-        <h1 className="md:text-4xl text-3xl font-extrabold tracking-tighter text-center">
+        <h1 className="text-pretty md:text-4xl text-3xl font-extrabold tracking-tighter text-center">
           What Our Members Are Saying
         </h1>
         <section className="text-black/60 body-font">
           <div className="container px-5 py-12 mx-auto">
-            <div className="flex flex-wrap -m-4">
-              <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+            <div className="flex flex-wrap -m-4 items-center justify-center">
+              <div className="lg:w-1/3 lg:mb-0 mb-6 lg:p-8 p-6">
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
                     className="size-40 mb-8 object-cover object-center rounded-full inline-block  bg-gray-100 border-none"
                     src="https://media.licdn.com/dms/image/C4D03AQEeEyYzNtDq7g/profile-displayphoto-shrink_400_400/0/1524234561685?e=2147483647&v=beta&t=CJY6IY9Bsqc2kiES7HZmnMo1_uf11zHc9DQ1tyk7R7Y"
                   />
-                  <p className="leading-relaxed text-left">
+                  <p className="leading-relaxed text-left max-w-sm">
                     {'"'}BS.GG has transformed my online entertainment
                     experience. The variety of activities keeps me coming back
                     for more!{'"'}
                   </p>
                   {/* <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span> */}
-                  <h2 className="text-black/70 font-extrabold tracking-tighter title-font tracking-wider text-base mt-2 text-right">
+                  <h2 className="text-pretty text-black/70 font-extrabold tracking-tighter title-font text-base mt-2 text-right">
                     ~ Alex P.
                   </h2>
                 </div>
               </div>
-              <div className="lg:w-1/3 lg:mb-0 mb-6 p-4">
+              <div className="lg:w-1/3 lg:mb-0 mb-6 lg:p-8 p-6">
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
                     className="size-40 mb-8 object-cover object-center rounded-full inline-block  bg-gray-100 border-none"
                     src="https://www.befunky.com/images/wp/wp-2021-01-linkedin-profile-picture-focus-face.jpg?auto=avif,webp&format=jpg&width=944"
                   />
-                  <p className="leading-relaxed text-left">
+                  <p className="leading-relaxed text-left max-w-sm">
                     {'"'}I love the community aspect of BS.GG. I{"'"}ve made so
-                    many friends and the rewards are fantastic!{'"'}
+                    many new friends and the rewards are absolutely fantastic!
+                    {'"'}
                   </p>
                   {/* <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span> */}
-                  <h2 className="text-black/70 font-extrabold tracking-tighter title-font tracking-wider text-base mt-2 text-right">
+                  <h2 className="text-pretty text-black/70 font-extrabold tracking-tighter title-font text-base mt-2 text-right">
                     ~ Maria T.
                   </h2>
                 </div>
               </div>
-              <div className="lg:w-1/3 lg:mb-0 p-4">
+              <div className="lg:w-1/3 lg:mb-0 lg:p-8 p-6">
                 <div className="h-full text-center">
                   <img
                     alt="testimonial"
                     className="size-40 mb-8 object-cover object-center rounded-full inline-block  bg-gray-100 border-none"
                     src="https://media.licdn.com/dms/image/C4E03AQHwDooA-9Hlyg/profile-displayphoto-shrink_400_400/0/1656254145919?e=2147483647&v=beta&t=mqsdKH4w-wDYZoBA9Q5kwOWQDh0CnKhBy1QIzc9rzFs"
                   />
-                  <p className="leading-relaxed text-left">
+                  <p className="leading-relaxed text-left max-w-sm">
                     {'"'}The VIP Club is a game-changer. The perks and exclusive
-                    events are amazing. Highly recommend!{'"'}
+                    events are amazing. I always highly recommend it!{'"'}
                   </p>
                   {/* <span className="inline-block h-1 w-10 rounded bg-blue-500 mt-6 mb-4"></span> */}
-                  <h2 className="text-black/70 font-extrabold tracking-tighter title-font tracking-wider text-base mt-2 text-right">
+                  <h2 className="text-pretty text-black/70 font-extrabold tracking-tighter title-font text-base mt-2 text-right">
                     ~ John D.
                   </h2>
                 </div>
@@ -354,7 +359,7 @@ export default function HomePage() {
       </section>
       <section className="py-20 bg-black text-white">
         <div className="container mx-auto text-center">
-          <h2 className="md:text-4xl text-3xl font-extrabold tracking-tighter">
+          <h2 className="text-pretty md:text-4xl text-3xl font-extrabold tracking-tighter">
             Ready To Begin Your Adventure?
           </h2>
           <p className="mt-4 text-white/80 max-w-2xl mx-auto">
@@ -371,7 +376,7 @@ export default function HomePage() {
           </Button>
         </div>
       </section>
-      <section className="py-20 container mx-auto text-center bg-primary text-black">
+      <section className="py-20 px-8 w-full text-center bg-primary text-black">
         <h1 className="md:text-4xl text-3xl font-extrabold tracking-tighter text-center">
           Contact Us
         </h1>
