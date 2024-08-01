@@ -61,18 +61,33 @@ export default function HomePage() {
             </h2>
           </div>
           <div className="flex justify-center mt-4 space-x-8 items-center flex-1 md:pb-0 pb-6">
-            <div className="flex items-center justify-center gap-1 cursor-pointer flex-col">
+            <Link
+              href={"https://bsgg.partners/d8fe5981e"}
+              target="_blank"
+              rel="norefferer noopener"
+              className="flex items-center justify-center gap-1 cursor-pointer flex-col"
+            >
               <IN title="India" className="rounded-full size-12" />
               <p className="font-extrabold tracking-tighter">India</p>
-            </div>
-            <div className="flex items-center justify-center gap-1 cursor-pointer flex-col">
+            </Link>
+            <Link
+              href={"https://bsgg.partners/d8fe5981e"}
+              target="_blank"
+              rel="norefferer noopener"
+              className="flex items-center justify-center gap-1 cursor-pointer flex-col"
+            >
               <BD title="Bangladesh" className="rounded-full size-12" />
               <p className="font-extrabold tracking-tighter">Bangladesh</p>
-            </div>
-            <div className="flex items-center justify-center gap-1 cursor-pointer flex-col">
+            </Link>
+            <Link
+              href={"https://bsgg.partners/d8fe5981e"}
+              target="_blank"
+              rel="norefferer noopener"
+              className="flex items-center justify-center gap-1 cursor-pointer flex-col"
+            >
               <PK title="Pakistan" className="rounded-full size-12" />
               <p className="font-extrabold tracking-tighter">Pakistan</p>
-            </div>
+            </Link>
           </div>
         </div>
       </section>
