@@ -369,13 +369,19 @@ export default function HomePage() {
             filled with excitement, rewards, and endless fun. Click the {'"'}
             Join Now{'"'} button and start your adventure!
           </p>
-          <Button
-            className="mt-8 bg-white text-black hover:bg-white/90 w-full max-w-xs text-base font-semibold"
-            variant="ghost"
-            size={"lg"}
+          <Link
+            href={"https://bsgg.partners/d8fe5981e"}
+            target="_blank"
+            rel="norefferer noopener"
           >
-            Join Now
-          </Button>
+            <Button
+              className="mt-8 bg-white text-black hover:bg-white/90 w-full max-w-xs text-base font-semibold"
+              variant="ghost"
+              size={"lg"}
+            >
+              Join Now
+            </Button>
+          </Link>
         </div>
       </section>
       <section className="py-20 px-8 w-full text-center bg-primary text-black">
