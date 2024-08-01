@@ -8,6 +8,8 @@ import {
   Share1Icon
 } from "@radix-ui/react-icons";
 import { Button } from "./ui/button";
+import Link from "next/link";
+import { LiaTelegram } from "react-icons/lia";
 
 export default function HomePage() {
   return (
@@ -389,30 +391,38 @@ export default function HomePage() {
       <footer className="py-8 bg-black">
         <div className="container mx-auto text-center">
           <div className="flex justify-center space-x-4">
-            <a
+            {/* <Link
+              target="_blank"
+              rel="norefferer noopener"
               href="#"
               className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <FacebookIcon className="w-6 h-6" />
-            </a>
-            <a
-              href="#"
+            </Link> */}
+            <Link
+              target="_blank"
+              rel="norefferer noopener"
+              href="https://x.com/BsggIndia"
               className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <TwitterIcon className="w-6 h-6" />
-            </a>
-            <a
-              href="#"
+            </Link>
+            <Link
+              target="_blank"
+              rel="norefferer noopener"
+              href="https://t.me/Betswap_GG"
               className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
-              <TextIcon className="w-6 h-6" />
-            </a>
-            <a
-              href="#"
+              <LiaTelegram className="w-6 h-6" />
+            </Link>
+            <Link
+              target="_blank"
+              rel="norefferer noopener"
+              href="https://www.instagram.com/bsgg.india"
               className="text-white/80 hover:text-white hover:scale-110 transition-all duration-300 ease-in-out"
             >
               <InstagramIcon className="w-6 h-6" />
-            </a>
+            </Link>
           </div>
           <div className="mt-4 text-white/80">
             <p>BS.GG - Where Fun Meets Opportunity</p>
